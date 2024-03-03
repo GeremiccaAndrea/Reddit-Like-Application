@@ -1,0 +1,25 @@
+<form> 
+  <div> 
+    <label for = "num1"> Numero 1: </label>
+    <input name = "num1" #label1> 
+
+    <label for = "num2"> Numero 2: </label>
+    <input name = "num2" #label2>     
+  </div>
+
+  <button (click) = "addizioneNum1(label1,label2)"> 
+    +
+  </button>
+
+  <button (click) = "sottrazioneNum1(label1,label2)"> 
+    -
+  </button>
+
+  <button (click) = "divisioneNum1(label1,label2)"> 
+    /
+  </button>
+
+  <button (click) = "moltplicazioneNum1(label1,label2)"> 
+    *
+  </button>
+</form>
